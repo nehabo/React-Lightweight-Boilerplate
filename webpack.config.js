@@ -1,7 +1,5 @@
-const path = require('path');
-
-// entry point(s) for app
 module.exports = {
+// entry point(s) for app
   entry: [
     './app/index.js',
   ],
@@ -13,8 +11,8 @@ module.exports = {
   },
 // output for bundled files
   output: {
-    filename: 'index_bundle.js',
-    path: path.join(__dirname, '/dist'),
+    filename: './dist/index_bundle.js',
+    publicPath: '/',
   },
 
 };
