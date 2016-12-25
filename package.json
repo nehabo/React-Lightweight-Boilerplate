@@ -36,6 +36,10 @@
     "lodash": "^4.17.2",
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.7",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.1",
+    "react-select": "^1.0.0-rc.2",
+    "react-tokeninput": "^2.2.2",
+    "redux": "^3.6.0"
   }
 }
